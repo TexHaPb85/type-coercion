@@ -1,0 +1,128 @@
+<!-- This is the test page -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Type Coercion | Test Me</title>
+    <link rel="icon" type="image/ico" href="assets/images/coffee-icon.jpg">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/test.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="test">
+            <div class="name">Test me page</div>
+                <div class="nms">true + false</div>
+                <div class="info">
+                    <input id="t1" type="text" name="name" class="inps">
+                </div>
+                <div class="nms">12 / '6'</div>
+                <div class="info">
+                    <input id="t2" type="text" name="name" class="inps">
+                </div>
+                <div class="nms">'number' + 15 + 3</div>
+                <div class="info">
+                    <input id="t3" type="text" name="name" class="inps" >
+                </div>
+                <div class="nms">15 + 3 + 'number'</div>
+                <div class="info">
+                    <input id="t4" type="text" name="name" class="inps">
+                </div>
+                <div class="nms">[ 1 ] > null</div>
+                <div class="info">
+                    <input id="t5" type="text" name="name" class="inps">
+                </div>
+                <div class="nms">'foo' + 'bar'</div>
+                <div class="info">
+                    <input id="t6" type="text" name="name" class="inps">
+                </div>
+                <div class="nms">'true' == true</div>
+                <div class="info">
+                    <input id="t7" type="text" name="name" class="inps">
+                </div>
+        </div>
+
+        <div class="centr">
+            <button id="testBtn" class="button_test">TEST</div></button>
+        </div>
+
+        <!-- excellent answers -->
+        <div id="excellentModal" class="modal">
+            <div class="modal-content">
+                <span id="closeSpan" onclick="closeModalWindow()" class="close">&times</span>
+                <div class="pic-right">
+                   <img src="assets/images/team/Dmitry.png" />
+                </div>
+                <div class="modal-content">
+                    <h2>Excellent! You`ve got them all!</h2>
+                    <p>Right answers 100%</p>
+                    <span id="rightAnsw1"></span>
+                    <div class="closeBtn">
+                        <button id="closeModalBtn" onclick="closeModalWindow()" class="button_test">Yeah</div></button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <script src="assets/js/testMe.js"></script>
+
+
+        <!-- not bad answers -->
+        <div id="notBadModal" class="modal">
+            <div class="modal-content">
+                <span id="closeSpan" onclick="closeModalWindow()" class="close">&times</span>
+                <div class="pic-right">
+                   <img src="assets/images/modalWindowSmiles/happy.png" />
+                </div>
+                <div class="modal-content">
+                    <h2>Good job! You`ve almost done it!</h2>
+                    <p>Right answers: more than 50%</p>
+                    <span id="rightAnsw2"></span>
+                    <div class="closeBtn">
+                        <button id="closeModalBtn" onclick="closeModalWindow()" class="button_test">Try again</div></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/testMe.js"></script>
+
+
+        <!-- bad answers -->
+        <div id="badModal" class="modal">
+            <div class="modal-content">
+                <span id="closeSpan" onclick="closeModalWindow()" class="close">&times</span>
+                <div class="pic-right">
+                   <img src="assets/images/modalWindowSmiles/sad.png" />
+                </div>
+                <div class="modal-content">
+                    <h2>Meh… You can do it better!</h2>
+                    <p>Right answers: less thab 50%</p>
+                    <span id="rightAnsw3"></span>
+                    <div class="closeBtn">
+                        <button id="closeModalBtn" onclick="closeModalWindow()" class="button_test">Try again</div></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/testMe.js"></script>  
+
+
+    <footer class="navbar">
+        <ul>
+            <li><a href="https://lviv.itstep.org/" class="nav-link">IT STEP</a></li>
+            <li><a href="team.html" class="nav-link">Team</a></li>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+        </ul>
+    </footer>
+
+    <div class="loader">
+        <img src="assets/images/coffee.gif" alt="Loading..." />
+    </div>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

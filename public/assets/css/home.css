@@ -1,0 +1,32 @@
+/* Home page styles goes here */
+button {
+    margin-top: 300px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+    margin-right:100px;
+    border: 5px solid #000000;
+    background : #ffffff ;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.btn {
+    margin-top: 300px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+    margin-right:100px;
+    border: 5px solid #000000;
+    background : #ffffff ;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: black;
+    display: inline-block;
+}
+
+.text {
+    margin-left: 270px;
+}
+
+.text a {
+    padding: 0;
+    text-decoration: underline;
+}
